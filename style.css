@@ -1,0 +1,169 @@
+*{
+    scroll-behavior: smooth;
+    text-decoration: non;
+    box-sizing: border-box;
+}
+
+
+body{
+ color: #403E3C;
+}    
+
+a{
+    color: black;
+}
+
+.navbar {
+    position: fixed;
+    background-color: #FFFF !important;
+    width: 100%;
+
+}
+
+
+.nav-link{
+    margin-right: 20px !important;
+}
+
+
+.Brand{
+    display: flex;
+}
+
+.animate__animated.animate__FadeInUp {
+    --animate-duration: 2s;
+    padding-top: 15%;
+  }
+
+.title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title h1{
+    margin-bottom: 10%;
+    margin-top: 20%;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+.title h2{
+    width: 80%;
+    margin-bottom: 15%;
+    
+}
+
+.btn {
+    width: 40%;
+    margin-top: 5%;
+    height: 7%;
+    border-radius: 50px;
+    background-color: #134A3E !important;
+    border-color: #134A3E;
+    color: #FFFF;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: #F74840 !important;
+    border-color: #F74840;
+    color: #FFFF;
+}
+    
+
+.text{
+    margin: 0 10% 4% 10%;
+    text-align: center;
+}
+
+header{
+    background-image: url(image/backgrnd.svg);
+    background-size: cover;
+    object-fit: none;
+    padding-bottom: 5%;
+  
+    
+}
+
+
+
+.Brand{
+    margin: 0px 0px 0 5%;
+ 
+}
+
+.subtitle{
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+.icone{
+    display: block;
+    margin: auto;
+    padding: 20px;
+    animation: bounce;
+}
+
+.container {
+    font-size: 20px;
+}
+
+.column {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#podcast{
+    background-color: #FFF5F2;
+    margin-top: 20px;
+}
+
+.podcast {
+    margin: 8% 10% 4% 10%;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 5%;
+}
+
+.iframe {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row podcast{
+    margin: 0% 10% 0% 10%;
+}
+
+.description {
+    padding-right: 20%;
+}
+
+.playlist{
+    text-align: center;
+    font-weight: bolder;
+    margin : 10%;
+    
+}
+
+.people{
+    width: 45%;
+    height: 65%;
+    margin: 20px;
+    border-radius: 100px;
+    object-fit: cover;
+ 
+}
+.testimonial{
+    text-align: center;
+    margin: 5%;
+}
+
+
+footer{
+    margin-top: 10%;
+}
+
+    
